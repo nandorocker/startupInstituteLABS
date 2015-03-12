@@ -15,20 +15,48 @@ h1, h2, h3, h4, h5, h6{
 }
 
 body{
-	font-size: 12px;
+	font-size: 18px;
 	font-family: Arial;
-	background-image: url("rabbitturtle.png");
-	background-repeat: no-repeat;
-	width: 80%;
+	background-size: 100%; 
+	background-color: #5d9242;
+	line-height: 1.2em;
 
 }
 
-.numberofyears {
-	font-size: 50px;
-	color: #222;
+
+.intro{
+	float:left;
+	
+	width: 400px;
+	position: right top;
+	background-color: #9FC35A;
+	border: solid 2px #3B601B;
+	padding: 1em;
+
 }
 
-.teaser{
-	font-weight: bold;
+.article{
+	float:left;
+	position: absolute;
+	bottom: 10px;
+	
+}
 
+.acontainer{
+	float: left;
+	max-width: 600px;
+	padding: 1em;
+	
+}
+
+.bigpic{
+	float: left;
+	width: 100%;
+	z-index: -1;
+	
+}
+
+.bubbles{
+	width: 200px;
+	height: 200px;
 }
