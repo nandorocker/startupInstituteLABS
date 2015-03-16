@@ -49,14 +49,44 @@ body{
 	
 }
 
+
 .bigpic{
 	float: left;
 	width: 100%;
 	z-index: -1;
+	border: 
 	
 }
 
 .bubbles{
+	position: absolute;
+	top: 650px;
+	left: 650px;
 	width: 200px;
 	height: 200px;
+}
+
+.box{
+	position: relative;
+	width: 50%;		/* desired width */
+}
+.box:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+@media screen and (max-width: 50px){
+
+			body{
+				background-color: pink;
+			}
+
+
+			h1, h2, h3{
+				color: pink;
+				}
+
+
+
 }
